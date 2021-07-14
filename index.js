@@ -1,31 +1,33 @@
 const Kitchen = require('./Kitchen');
 
-const donatoVirtuve = new Kitchen('Donato');
+const virtuve = new Kitchen('Niammi');
+//console.log(virtuve);
 
-donatoVirtuve.intro();
-// Sveiki atvyke i Donato virtuve!
+virtuve.intro();
+// Sveiki atvyke i Niammi virtuve!
 
-donatoVirtuve.nupirkta('mesa', 20);
-donatoVirtuve.nupirkta('bulves', 50);
-donatoVirtuve.nupirkta('grietine', 4);
+virtuve.nupirkta('mesa', 20);
+virtuve.nupirkta('bulves', 50);
+virtuve.nupirkta('grietine', 4);
 
-donatoVirtuve.turimiProduktai();
+virtuve.turimiProduktai();
 // 1) Mesa: 20
 // 2) Bulves: 50
 // 3) Grietine: 4
+/*
+virtuve.sunaudota('mesa', 15);
+virtuve.sunaudota('bulves', 15);
+virtuve.sunaudota('grietine', 2);
 
-donatoVirtuve.sunaudota('mesa', 15);
-donatoVirtuve.sunaudota('bulves', 15);
-donatoVirtuve.sunaudota('grietine', 2);
-
-donatoVirtuve.turimiProduktai();
+virtuve.turimiProduktai();
 // 1) Mesa: 5
 // 2) Bulves: 35
 // 3) Grietine: 2
 
-donatoVirtuve.sugedesProduktas('bulves');
+virtuve.sugedesProduktas('bulves');
 // KOMENTARAS: sugedusius produktus tiesiog ismetame
 
-donatoVirtuve.turimiProduktai();
+virtuve.turimiProduktai();
 // 1) Mesa: 5
 // 2) Grietine: 2
+*/
