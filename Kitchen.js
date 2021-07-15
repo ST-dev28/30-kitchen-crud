@@ -16,7 +16,6 @@ class Kitchen {
             return false;
         }*/
         let count = 0;
-        //const prodNameCorr = this.capitalFirst(item.prod);
         for (let i = 0; i < this.list.length; i++) {
             const item = this.list[i];
             ++count;
