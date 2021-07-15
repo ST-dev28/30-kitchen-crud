@@ -14,7 +14,7 @@ virtuve.turimiProduktai();
 // 1) Mesa: 20
 // 2) Bulves: 50
 // 3) Grietine: 4
-/*
+
 virtuve.sunaudota('mesa', 15);
 virtuve.sunaudota('bulves', 15);
 virtuve.sunaudota('grietine', 2);
@@ -30,4 +30,3 @@ virtuve.sugedesProduktas('bulves');
 virtuve.turimiProduktai();
 // 1) Mesa: 5
 // 2) Grietine: 2
-*/
