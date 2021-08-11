@@ -8,7 +8,7 @@ class Kitchen {
     }
     nupirkta(prodName, qty) {
         this.list.push({ prodName, qty, good: true });
-        console.log(this.list);
+        //console.log(this.list);
     }
     turimiProduktai() {
         /*if (!this.isValidProductName(prodName) ||
@@ -21,7 +21,6 @@ class Kitchen {
             ++count;
             console.log(`${count}) ${item.prodName[0].toUpperCase() + item.prodName.slice(1)}: ${item.qty}`);
         }
-        console.log('--------------------');
     }
 
     sunaudota(prodName, usedQty) {
@@ -36,6 +35,7 @@ class Kitchen {
         }
         console.log('------------------');
     }
+
     sugedesProduktas(prodName) {
         const updatedList = [];
         for (let i = 0; i < this.list.length; i++) {
@@ -44,6 +44,7 @@ class Kitchen {
             }
         }
         this.list = updatedList;
+        console.log('------------------');
     }
 
     isValidProductName(prodName) {
