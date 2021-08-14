@@ -1,4 +1,5 @@
-const Kitchen = require('./Kitchen');
+//const Kitchen = require('./Kitchen');
+const Kitchen = require('./Kitchen1');
 
 const virtuve = new Kitchen('Niammi');
 //console.log(virtuve);
